@@ -6,21 +6,21 @@ loaderVersion="[3,)" # Require at least 3.x
 license='LGPL'
 
 [[mods]]
-modId="examplemod"
+modId="mb_commander"
 version="${file.jarVersion}"
-displayName="ExampleMod"
-credits="The ExampleMod dev team"
-authors="ExampleModAuthor"
+displayName="Mine & Blade: Commander"
+credits="The Forge dev team"
+authors="Rastersaurus Rex"
 description='''
-Example mod that uses Kotlin for Forge.
+Live out your minecraft battle commander fantacies
 '''
-[[dependencies.examplemod]]
+[[dependencies.mb_commander]]
     modId="forge"
     mandatory=true
     versionRange="[41,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.examplemod]]
+[[dependencies.mb_commander]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19,1.20)"
